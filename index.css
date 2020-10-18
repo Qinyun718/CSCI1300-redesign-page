@@ -86,7 +86,7 @@ body{
 
 @media (max-width: 1000px) {
   body {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
   .branch-container-0{
   	display: flex;
@@ -111,7 +111,7 @@ body{
 
 @media (max-width: 400px) {
   	body {
-    font-size: 1.5em;
+    font-size: 1em;
   	}	
   	.branch-container{
   	display: flex;
@@ -121,8 +121,11 @@ body{
 	}
 	.sub-branch-box{
   		width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
 
 	}
+ 
 
 
 }
@@ -187,6 +190,10 @@ body{
 	align-items: center;
 	justify-content: center;
 	padding-bottom: 20px;
+}
+
+.rest-text{
+  background-color: #F4653A
 }
 
 
